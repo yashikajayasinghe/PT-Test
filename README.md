@@ -10,7 +10,7 @@ Example site to perform Automation testing task:
 - Clone the Project
 
 **Step 2:**
-- In a terminal, run the following command from the project root (PT-TEST/cypress)
+- In a terminal, run the following command from the project root (PT-TEST)
 ```
 npm install
 ```
@@ -19,14 +19,14 @@ npm install
 
 - Test Run In Cypress Test Runner : 
 
-1. Run the following command from the project root (PT-TEST/cypress)
+1. Run the following command from the project root (PT-TEST/)
 ```
 .\node_modules\.bin\cypress open
 ```
 2. Click to run integration test spec
 
  
-- Alternatively test can be run in commandline headless mode as well: 
+- Alternatively test can be run in commandline on headless mode as well: 
 
 1. Run the command 
 ```
@@ -47,7 +47,8 @@ npm test
 
 * Screenshot can be found in the location: PT-Test/cypress/screenshots/buying-process.feature/buying-process-e2e-test-finalCartImage.png
 
-
+## Future Enhancements
+- Test Reprting can be improved by integrating with a third party test reporting libraries.
 
 ## Reference
 1. http://automationpractice.com/index.php

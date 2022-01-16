@@ -348,3 +348,7 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+cypress/cucumber-json
+
+#optional .vscode settings directory
+.vscode

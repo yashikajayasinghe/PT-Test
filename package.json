@@ -1,8 +1,18 @@
 {
   "devDependencies": {
-    "cypress": "^9.2.1"
+    "cypress": "^9.2.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/step-definitions/",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
   },
   "scripts": {
-    "test": "cypress run --browser chrome --headless --spec cypress/integration/PurchaseTheCheapest_flow_spec.js"
+    "test": "cypress run --browser chrome --headless --spec cypress/integration/buying-process.feature"
   }
 }

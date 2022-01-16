@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "cypress": "^9.2.1"
+  },
+  "scripts": {
+    "test": "cypress run --browser chrome --headless --spec cypress/integration/PurchaseTheCheapest_flow_spec.js"
+  }
+}

@@ -48,7 +48,7 @@ npm test
 * Screenshot can be found in the location: PT-Test/cypress/screenshots/buying-process.feature/buying-process-e2e-test-finalCartImage.png
 
 ## Future Enhancements
-- Test Reprting can be improved by integrating with a third party test reporting libraries.
+- Test Reporting can be improved by integrating with a third party test reporting libraries.
 
 ## Reference
 1. http://automationpractice.com/index.php
